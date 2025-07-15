@@ -1,6 +1,6 @@
 import { Component, AfterViewInit, ElementRef, ViewChild } from '@angular/core';
 import { CommonModule } from '@angular/common';
-import { WebSocketService } from '../../../data/web-socket-service';
+import { WebSocketService } from '../../../features/example/data/web-socket-service';
 import { Chart, ChartConfiguration, registerables } from 'chart.js';
 
 Chart.register(...registerables);

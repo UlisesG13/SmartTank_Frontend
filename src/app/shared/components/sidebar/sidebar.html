@@ -1,0 +1,42 @@
+<div class="sidebar" [class.collapsed]="collapsed">
+  <div class="sidebar-header" (click)="toggleSidebar()">
+    <a href="/">
+      <img src="assets/icon/logoTank.png" alt="Smart Tank Logo" class="logo-img" />
+    </a>
+  </div>
+  <div class="search-container">
+    <div class="search-input">
+      <i class="material-icons search-icon">search</i>
+      <input type="text" placeholder="Search" />
+    </div>
+  </div>
+  <nav class="sidebar-nav">
+    <ul>
+      <li *ngFor="let item of menuItems" class="nav-item" [class.active]="item.active">
+        <a href="#" class="nav-link">
+          <i class="material-icons icon">{{ item.icon }}</i>
+          <span class="nav-text">{{ item.label }}</span>
+        </a>
+      </li>
+    </ul>
+  </nav>
+  <div class="sidebar-footer">
+    <div class="user-profile">
+      <img src="assets/img/yo.jpg" class="user-avatar" alt="User" />
+      <div class="user-details">
+        <span class="user-name">Usuario</span>
+        <span class="user-role">Admin</span>
+      </div>
+    </div>
+    <div class="footer-actions">
+      <a href="#" class="footer-link">
+        <i class="material-icons icon">settings</i>
+        <span>Settings</span>
+      </a>
+      <a href="#" class="footer-link logout">
+        <i class="material-icons icon">logout</i>
+        <span>Log out</span>
+      </a>
+    </div>
+  </div>
+</div>

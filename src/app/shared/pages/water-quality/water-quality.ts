@@ -3,6 +3,7 @@ import { Component, OnInit, OnDestroy, Inject, PLATFORM_ID } from '@angular/core
 import { isPlatformBrowser, CommonModule } from '@angular/common';
 import { ChartType, ChartOptions } from 'chart.js';
 import { NgChartsModule } from 'ng2-charts';
+import { Sidebar } from '../../components/sidebar/sidebar';
   
 
 
@@ -11,7 +12,7 @@ import { NgChartsModule } from 'ng2-charts';
   templateUrl: './water-quality.html',
   styleUrls: ['./water-quality.scss'],
   standalone: true,
-  imports: [CommonModule, NgChartsModule],
+  imports: [CommonModule, NgChartsModule, Sidebar],
 })
 export class WaterQuality implements OnInit, OnDestroy {
   public isBrowser: boolean;

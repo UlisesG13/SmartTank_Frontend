@@ -2,6 +2,7 @@ import { Component, AfterViewInit, ElementRef, ViewChild } from '@angular/core';
 import { CommonModule } from '@angular/common';
 import { WebSocketService } from '../../../features/example/data/web-socket-service';
 import { Chart, ChartConfiguration, registerables } from 'chart.js';
+import { Sidebar } from '../../components/sidebar/sidebar';
 
 Chart.register(...registerables);
 
@@ -12,7 +13,7 @@ interface WaterSensorData {
 @Component({
   selector: 'app-water-quality-chart',
   standalone: true,
-  imports: [CommonModule], 
+  imports: [CommonModule, Sidebar], 
   templateUrl: './water-quality-chart.html',
   styleUrl: './water-quality-chart.scss'
 })

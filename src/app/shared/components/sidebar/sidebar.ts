@@ -9,10 +9,16 @@ import { CommonModule } from '@angular/common';
 })
 export class Sidebar {
   collapsed = false;
+  collapsedOnMobile = false;
 
   toggleSidebar() {
-    this.collapsed = !this.collapsed;
-    document.body.classList.toggle('sidebar-collapsed', this.collapsed);
+    // Si es mobile, alterna collapsedOnMobile, si no, alterna collapsed
+    if (window.innerWidth <= 768) {
+      this.collapsedOnMobile = !this.collapsedOnMobile;
+    } else {
+      this.collapsed = !this.collapsed;
+      document.body.classList.toggle('sidebar-collapsed', this.collapsed);
+    }
   }
 
   menuItems = [

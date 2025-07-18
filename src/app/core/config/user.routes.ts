@@ -6,6 +6,10 @@ import { LadingPage } from '../../shared/pages/lading-page/lading-page';
 import { WaterQualityChart } from '../../shared/pages/water-quality-chart/water-quality-chart';
 import { WaterQualityReport } from '../../shared/pages/water-quality-report/water-quality-report';
 import { WaterQuality } from '../../shared/pages/water-quality/water-quality';
+import {Sidebar} from '../../shared/components/sidebar/sidebar';
+import path from 'path';
+import { Component } from '@angular/core';
+import { from } from 'rxjs';
 
 export const userRoute: Routes = [
     {path: 'login', component: Login},
@@ -14,4 +18,5 @@ export const userRoute: Routes = [
     {path: 'water', component: WaterQualityChart},
     {path: 'water2', component: WaterQualityReport},
     {path: 'water3', component: WaterQuality},
+    {path:  'sidebar', component: Sidebar},
 ];

@@ -2,13 +2,14 @@ import { AfterViewInit, Component, ElementRef, ViewChild } from '@angular/core';
 import { WebSocketService } from '../../../features/example/data/web-socket-service';
 import { CommonModule } from '@angular/common';
 import { Chart, ChartConfiguration, registerables } from 'chart.js';
+import { Sidebar } from '../../components/sidebar/sidebar';
 
 Chart.register(...registerables);
 
 
 @Component({
   selector: 'app-water-quality-report',
-  imports: [CommonModule],
+  imports: [CommonModule, Sidebar],
   templateUrl: './water-quality-report.html',
   styleUrl: './water-quality-report.scss'
 })

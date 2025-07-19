@@ -1,3 +1,4 @@
+@use "sass:color";
 $azul: #2563eb;
 $naranja: #f97316;
 $grisClaro: #f8fafc;
@@ -232,7 +233,7 @@ body {
       transition: background 0.3s ease;
 
       &:hover {
-        background: darken($naranja, 10%);
+        background: color.adjust($naranja, $lightness: -10%);
       }
     }
 

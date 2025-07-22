@@ -1,0 +1,34 @@
+2025-07-19T21:29:22.232Z [info] FUXA V.1.2.6
+2025-07-19T21:29:22.269Z [info] daqstorage: init successful!
+2025-07-19T21:29:22.624Z [info] api: init successful!
+2025-07-19T21:29:22.626Z [info] plugin-installed ads-client 2.1.0
+2025-07-19T21:29:22.626Z [info] plugin-installed node-opcua 2.149.0
+2025-07-19T21:29:22.626Z [info] plugin-installed modbus-serial 8.0.19
+2025-07-19T21:29:22.626Z [info] plugin-installed node-bacnet 0.2.4
+2025-07-19T21:29:22.627Z [info] plugin-installed node-snap7 1.0.7
+2025-07-19T21:29:22.627Z [info] plugin-installed odbc 2.4.9
+2025-07-19T21:29:22.627Z [info] runtime init plugins successful!
+2025-07-19T21:29:22.628Z [info] currentstorage.connected-to _db\currentTagReadings.db database
+2025-07-19T21:29:22.629Z [info] usrstorage.connected C:\Users\thega\OneDrive\Escritorio\6-B\SmartTank_Frontend\_appdata\users.fuxap.db database
+2025-07-19T21:29:22.629Z [info] prjstorage.connected-to C:\Users\thega\OneDrive\Escritorio\6-B\SmartTank_Frontend\_appdata\project.fuxap.db database
+2025-07-19T21:29:22.642Z [info] currentstorage init successful!
+2025-07-19T21:29:22.648Z [info] users.usrstorage-init successful!
+2025-07-19T21:29:22.734Z [info] project.prjstorage-init-successful!
+2025-07-19T21:29:22.739Z [info] users.usrstorage-set-default successful!
+2025-07-19T21:29:22.740Z [info] runtime init users successful!
+2025-07-19T21:29:22.744Z [info] project.prjstorage-set-default-successful!
+2025-07-19T21:29:22.745Z [info] runtime init project successful!
+2025-07-19T21:29:22.745Z [info] FUXA init in  548ms.
+2025-07-19T21:29:22.753Z [info] daqstorage reset!
+2025-07-19T21:29:22.753Z [info] alarms check start
+2025-07-19T21:29:22.753Z [info] notificator check start
+2025-07-19T21:29:22.754Z [info] scripts.start-checkstatus
+2025-07-19T21:29:22.754Z [info] jobs check start
+2025-07-19T21:29:22.755Z [info] FUXA started!
+2025-07-19T21:29:22.759Z [info] WebServer is running http://127.0.0.1:1881/
+2025-07-19T21:29:23.765Z [info] alarmsstorage.connected-to C:\Users\thega\OneDrive\Escritorio\6-B\SmartTank_Frontend\_appdata\alarms.fuxap.db database.
+2025-07-19T21:29:23.777Z [info] alarms.alarmstorage-init-successful!
+2025-07-19T21:29:26.451Z [info] socket.io client connected 9iMe4Vu4iwakvdoOAAAA
+2025-07-19T21:29:26.454Z [info] socket.io client connected 69orXek5iWLVeNc4AAAB
+2025-07-20T07:04:11.264Z [info] daqstorage.checkRetention processed
+2025-07-21T07:00:41.369Z [info] daqstorage.checkRetention processed
